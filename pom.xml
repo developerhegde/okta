@@ -4,7 +4,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>testokta</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
 	<name>testokta</name>
@@ -30,20 +30,20 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				    <cloudHubDeployment>
-				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>4.3.0</muleVersion>
-				      <username>developerhegde92</username>
-				      <password>Annakshatra@10</password>
-				      <applicationName>cicdappvik</applicationName>
-				      <environment>Sandbox</environment>
-				      <workers>1</workers>
-				      <workerType>MICRO</workerType>
-				      <objectStoreV2>true</objectStoreV2>
-				      <properties>
-				        <hiddenValue>SecretValue</hiddenValue>
-				      </properties>
-				    </cloudHubDeployment>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.3.0</muleVersion>
+						<username>developerhegde92</username>
+						<password>Annakshatra@10</password>
+						<applicationName>cicdappvik</applicationName>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<hiddenValue>SecretValue</hiddenValue>
+						</properties>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -72,7 +72,7 @@
 		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-apikit-module</artifactId>
-			<version>1.5.3</version>
+			<version>1.5.4</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
 	</dependencies>
