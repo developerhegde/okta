@@ -35,7 +35,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<username>developerhegde92</username>
 						<password>Annakshatra@10</password>
-						<applicationName>cicdappvik</applicationName>
+						<applicationName>cicdappvik2</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
